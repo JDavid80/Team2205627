@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.contenedor { 
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30vh;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    grid-gap: 10px;
+    }
+.contenedor > div {
+    display: block;
+     background-color: salmon;
+    padding: 20px;
+    color: #fff;
+  
+}
+.contenedor .item-todos{
+    background-color: gray;
+}
+
