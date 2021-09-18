@@ -1,5 +1,5 @@
-h1{
-    text-align: center;
+body{
+    background-color: rgb(253, 244, 244);
 }
 .main-conter{
   display: grid;
@@ -10,30 +10,46 @@ h1{
     /* border: 10px solid black; */ 
     margin: 0 auto;
     text-align: center; 
-    font-size: 1em;
+    font-size: 1em; 
     grid-gap: 15px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
-.main-conter > div{
+ .main-conter > div{
     display: block;
-    background-color: #10d5e7; 
+    background-color: #69a8ae; 
     padding: 15px;
-    color: #fff;
-   /*  box-shadow: 2px 2px 10px rgba(0,0,0,.25);  */
-}
+    color: rgb(247, 242, 242);
+    font-weight: bold; 
+    font-family: 'Yatra One', cursive;
+    justify-items: center;
+    border: 2px solid rgb(34, 87, 84) ;
+    font-family: 'Chewy', cursive;
+    border-radius: 20px;
+} 
 
 .main-conter .item1{
-    background-color: #10d5e7;
+    background-color: rgb(144, 124, 236);
     grid-column-start: 7;
-    grid-column-end: 8;
+    grid-column-end: 8; 
 }
 .main-conter .festivo{
-    background-color: #ffab0f;
+    background-color: rgb(144, 124, 236);
 }
 .main-conter .titulo{
     background-color: transparent;
     grid-column-start: 1;
     grid-column-end: 8;
     border-bottom: 2px solid black;
-    color: tomato;
+    color: rgb(8, 8, 8);
+    font-family: 'Neucha', cursive;
+    font-size: 1em;
+   
 }
+.main-conter .dia{
+    background-color: rgb(211, 142, 225);
+}
+.main-conter .domingo{
+    background-color: rgb(174, 159, 238);
+}
+
+
